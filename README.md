@@ -114,7 +114,7 @@ key (`:name` or `:favorite_movie`) should feel a little bit like a spreadsheet.
 It's good to keep those coordinates in mind as we start trying to retrieve
 values in this next section!
 
-## Read Scalar Data From a Nested Array
+## Read Scalar Data From a Nested Hash
 
 One of the defining features of AoHs is that we use coordinates to target
 unique elements as if they were in a grid where one part of the coordinate is a
@@ -136,7 +136,7 @@ The first set of brackets refers to the "row" of "spreadsheet" of the AoH.  The
 second set of brackets refer to the `key` used to get a _value_ out of the
 `Hash`.
 
-## Modify Scalar Data In an Array of Arrays
+## Modify Scalar Data In an Array of Hashes
 
 The same technique of using coordinates applies both to reading and
 modification. If you can "target" an element you can read it or update it.
